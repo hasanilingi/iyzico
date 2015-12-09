@@ -1,0 +1,27 @@
+{
+  "name": "hasanilingi/iyzico",
+  "description": "iyzico payment system laravel package",
+  "keywords": [
+    "iyzico",
+    "laravel"
+  ],
+  "authors": [
+    {
+      "name": "Hasan İlingi",
+      "homepage": "http://hasanilingi.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "~5.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/facades"
+    ],
+    "psr-4": {
+      "Hasanilingi\\Iyizico\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
